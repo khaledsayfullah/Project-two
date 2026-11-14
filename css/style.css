@@ -4,6 +4,9 @@
     font-family: "Lato", sans-serif;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 .navbar{
     background: #121212;
     position: absolute;
@@ -172,6 +175,128 @@
     color: #575757;
     font-size: 20px;
     font-weight: 400;
-    width: 340px;
+}
+.cardTwo{
+    margin-top: 40px;
 }
 /* service part end here */
+
+/* About me part start here */
+
+#aboutMe{
+    padding: 150px 0;
+    background: #121212;
+}
+.aboutHeading{
+    text-align: center;
+}
+.aboutHeading h3{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    color: #FEFEFE;
+}
+.aboutHeading p{
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    line-height: 160%;
+    letter-spacing: 3%;
+}
+.aboutleft{
+    margin-top: 40px;
+}
+.herocontent{
+    display: flex;
+    gap: 70px;
+}
+.aboutright{
+    font-size: 20px;
+    font-weight: 400;
+    color: #959595;
+    line-height: 190%;
+    margin-top: 153px;
+    width: 631px;
+}
+.aboutright button{
+    margin-top: 40px;
+    padding: 12px 30px;
+    background: #FD6F00;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+}
+.aboutright button a{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+}
+.endimage{
+    margin-top: 100px;
+}
+/* About me part End here */
+
+/* Portfolio part start here */
+
+#portfolioPart{
+    padding: 150px;
+    background-color: #121212;
+}
+.portHeader h3{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 3%;
+    color: #FEFEFE;
+    text-align: center;
+}
+.portBtn{
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+    gap: 24px;
+}
+.portBtn button{
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FD6F00;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.portBtn a{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.portBtn button:hover{
+    background: rgba(255, 255, 255, 0.08);
+}
+.portBtn button:hover a{
+    color: #C6C6C6;
+}
+.portOne{
+    width: 415px;
+}
+.portAbout{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.08);
+    border-bottom-left-radius: 8px;
+}
+.portAbout p{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    line-height: 160%;
+    color: #C6C6C6;
+}
+.secondRow, .thirdRow{
+    margin-top: 24px;
+}
+/* Portfolio part end here */
